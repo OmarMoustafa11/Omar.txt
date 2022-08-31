@@ -1,4 +1,41 @@
-This is my first text file from the command line
-This is my second time in this line 
-gfgfgfgfgfhdbfdbifndifnidnfjdnifndu
-karem the dream
+
+$ date - gives you the date and time (military time) 
+khaledmoustafa@Khaleds-MacBook-Air homework % date
+Wed Aug 31 13:27:47 EDT 2022
+
+$ whoami - tells you the name of the user 
+khaledmoustafa@Khaleds-MacBook-Air homework % whoami
+khaledmoustafa
+
+Pwd - tells you how you got to where you are at in the terminal
+khaledmoustafa@Khaleds-MacBook-Air homework % pwd
+/Users/khaledmoustafa/Documents/homework
+
+cd and (cd ~)- take me to the home directory 
+khaledmoustafa@Khaleds-MacBook-Air Documents % cd
+khaledmoustafa@Khaleds-MacBook-Air ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	demofolder
+
+(Cd .) - shows where you are currently 
+khaledmoustafa@Khaleds-MacBook-Air homework % cd . 
+khaledmoustafa@Khaleds-MacBook-Air homework % 
+
+
+(Cd -) - shows previous directory 
+khaledmoustafa@Khaleds-MacBook-Air homework % cd -
+~/Documents/homework
+
+Cd .. - takes you to the directory above your Current one 
+khaledmoustafa@Khaleds-MacBook-Air homework % cd ..
+khaledmoustafa@Khaleds-MacBook-Air Documents % ls
+JavaProjects	homework
+
+Ls - shows you where you are in the directory	
+khaledmoustafa@Khaleds-MacBook-Air homework % ls
+omar.txt
+
+Ls -a - shows previous enters 
+
+
+
