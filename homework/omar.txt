@@ -36,6 +36,131 @@ khaledmoustafa@Khaleds-MacBook-Air homework % ls
 omar.txt
 
 Ls -a - shows previous enters 
+khaledmoustafa@Khaleds-MacBook-Air homework % ls -a
+.		..		.DS_Store	omar.txt
+
+Ls -la - all functions added tg?
+khaledmoustafa@Khaleds-MacBook-Air homework % ls -la
+total 24
+drwxr-xr-x@ 4 khaledmoustafa  staff   128 Aug 31 21:13 .
+drwx------@ 7 khaledmoustafa  staff   224 Aug 31 21:13 ..
+-rw-r--r--@ 1 khaledmoustafa  staff  6148 Aug 31 11:50 .DS_Store
+-rw-r--r--@ 1 khaledmoustafa  staff  1267 Aug 31 21:13 omar.txt
+
+Touch - used to change time stamps
+khaledmoustafa@Khaleds-MacBook-Air homework % ls -a
+.		..		.DS_Store	omar.txt
+khaledmoustafa@Khaleds-MacBook-Air homework % touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file 
+
+File - it will show you a description of the files content 
+khaledmoustafa@Khaleds-MacBook-Air homework % file
+Usage: file [bcCdEhikLlNnprsvzZ0] [-e test] [-f namefile] [-F separator] [-m magicfiles] [-M magicfiles] file...
+       file -C -m magicfiles
+Try `file --help' for more information.
+
+Cat - combines files 
+khaledmoustafa@Khaleds-MacBook-Air homework % cat
+cat
+
+History - shows you the history of what was entered 
+khaledmoustafa@Khaleds-Air homework % history
+  236  git push
+  237  ls
+  238  ls-la
+  239  ls -la
+  240  ls -a
+  241  touch
+  242  file
+  243  cat
+  244  less
+  245  cd
+  246  ls
+  247  cd Documents
+  248  ls
+  249  cd homework
+  250  ls
+  251  less
+
+Clear- clears terminal
+khaledmoustafa@Khaleds-Air homework % clear
+
+khaledmoustafa@Khaleds-Air homework % 
+
+Copy - copy the file
+khaledmoustafa@Khaleds-Air homework % copy
+zsh: command not found: copy
+khaledmoustafa@Khaleds-Air homework % 
+
+Mv - is moving files 
+khaledmoustafa@Khaleds-Air homework % mv
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+khaledmoustafa@Khaleds-Air homework % 
+
+Mkdir - make multiple directories at the same time.
+khaledmoustafa@Khaleds-Air homework % mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+khaledmoustafa@Khaleds-Air homework % 
+
+Rm - removes files 
+khaledmoustafa@Khaleds-Air homework % rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+khaledmoustafa@Khaleds-Air homework % 
+
+Find - finds specific files 
+khaledmoustafa@Khaleds-Air homework % find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+khaledmoustafa@Khaleds-Air homework %
+
+Help - how to check flags 
+khaledmoustafa@Khaleds-Air homework % help echo
+zsh: command not found: help
+
+Man - hey provide documentation about commands and other aspects of the system.
+
+
+LS(1)                     BSD General Commands Manual                    LS(1)
+
+NAME
+     ls -- list directory contents
+
+SYNOPSIS
+     ls [-ABCFGHLOPRSTUW@abcdefghiklmnopqrstuwx1%] [file ...]
+
+DESCRIPTION
+     For each operand that names a file of a type other than directory, ls
+     displays its name as well as any requested, associated information.  For
+     each operand that names a file of type directory, ls displays the names
+     of files contained within that directory, as well as any requested, asso-
+     ciated information.
+
+     If no operands are given, the contents of the current directory are dis-
+     played.  If more than one operand is given, non-directory operands are
+     displayed first; directory and non-directory operands are sorted sepa-
+     rately and in lexicographical order.
+
+     The following options are available: 
+Whatis - provides a brief description of command line programs.
+khaledmoustafa@Khaleds-Air homework % whatis
+usage: whatis keyword ...
+khaledmoustafa@Khaleds-Air homework % 
+
+Alias - simply specify an alias name and set it to the command.
+
+khaledmoustafa@Khaleds-Air homework % alias
+run-help=man
+which-command=whence
+khaledmoustafa@Khaleds-Air homework % 
+
+
+
+
+
+
 
 
 
